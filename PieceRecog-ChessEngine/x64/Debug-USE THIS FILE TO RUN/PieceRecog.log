@@ -1,0 +1,23 @@
+﻿  main.cpp
+E:\University\7 - Thesis\Thesis Draft 2\SourceCode\PieceRecog\src\main.cpp(163,31): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+E:\University\7 - Thesis\Thesis Draft 2\SourceCode\PieceRecog\src\main.cpp(296,64): warning C4244: 'argument': conversion from '_Tp' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\University\7 - Thesis\Thesis Draft 2\SourceCode\PieceRecog\src\main.cpp(296,44): warning C4244: 'argument': conversion from '_Tp' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+LINK : warning LNK4044: unrecognized option '/static-libgcc'; ignored
+LINK : warning LNK4044: unrecognized option '/static-libstdc++'; ignored
+  PieceRecog.vcxproj -> E:\University\7 - Thesis\Thesis Draft 2\SourceCode\PieceRecog\x64\Debug\PieceRecog.exe

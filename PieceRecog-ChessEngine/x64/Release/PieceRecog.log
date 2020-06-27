@@ -1,0 +1,33 @@
+﻿  main.cpp
+E:\University\7 - Thesis\Thesis Draft 2\SourceCode\PieceRecog\src\main.cpp(162,31): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+E:\University\7 - Thesis\Thesis Draft 2\SourceCode\PieceRecog\src\main.cpp(209,73): warning C4244: 'argument': conversion from '_Tp' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\University\7 - Thesis\Thesis Draft 2\SourceCode\PieceRecog\src\main.cpp(209,56): warning C4244: 'argument': conversion from '_Tp' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+  Piece.cpp
+main.obj : error LNK2001: unresolved external symbol "int __cdecl cv::countNonZero(class cv::_InputArray const &)" (?countNonZero@cv@@YAHAEBV_InputArray@1@@Z)
+main.obj : error LNK2001: unresolved external symbol "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::_InputArray const &)" (?imshow@cv@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@1@@Z)
+main.obj : error LNK2001: unresolved external symbol "bool __cdecl cv::imwrite(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::_InputArray const &,class std::vector<int,class std::allocator<int> > const &)" (?imwrite@cv@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@1@AEBV?$vector@HV?$allocator@H@std@@@3@@Z)
+main.obj : error LNK2001: unresolved external symbol "public: void __cdecl cv::Mat::copyTo(class cv::_OutputArray const &)const " (?copyTo@Mat@cv@@QEBAXAEBV_OutputArray@2@@Z)
+main.obj : error LNK2001: unresolved external symbol "void __cdecl cv::cvtColor(class cv::_InputArray const &,class cv::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@HH@Z)
+main.obj : error LNK2001: unresolved external symbol "class cv::_InputOutputArray const & __cdecl cv::noArray(void)" (?noArray@cv@@YAAEBV_InputOutputArray@1@XZ)
+main.obj : error LNK2001: unresolved external symbol "void __cdecl cv::putText(class cv::_InputOutputArray const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::Point_<int>,int,double,class cv::Scalar_<double>,int,int,bool)" (?putText@cv@@YAXAEBV_InputOutputArray@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$Point_@H@1@HNV?$Scalar_@N@1@HH_N@Z)
+main.obj : error LNK2001: unresolved external symbol "public: void __cdecl cv::DescriptorMatcher::knnMatch(class cv::_InputArray const &,class cv::_InputArray const &,class std::vector<class std::vector<class cv::DMatch,class std::allocator<class cv::DMatch> >,class std::allocator<class std::vector<class cv::DMatch,class std::allocator<class cv::DMatch> > > > &,int,class cv::_InputArray const &,bool)const " (?knnMatch@DescriptorMatcher@cv@@QEBAXAEBV_InputArray@2@0AEAV?$vector@V?$vector@VDMatch@cv@@V?$allocator@VDMatch@cv@@@std@@@std@@V?$allocator@V?$vector@VDMatch@cv@@V?$allocator@VDMatch@cv@@@std@@@std@@@2@@std@@H0_N@Z)
+main.obj : error LNK2001: unresolved external symbol "void __cdecl cv::HoughCircles(class cv::_InputArray const &,class cv::_OutputArray const &,int,double,double,double,double,int,int)" (?HoughCircles@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@HNNNNHH@Z)
+main.obj : error LNK2001: unresolved external symbol "void __cdecl cv::inRange(class cv::_InputArray const &,class cv::_InputArray const &,class cv::_InputArray const &,class cv::_OutputArray const &)" (?inRange@cv@@YAXAEBV_InputArray@1@00AEBV_OutputArray@1@@Z)
+main.obj : error LNK2001: unresolved external symbol "void __cdecl cv::circle(class cv::_InputOutputArray const &,class cv::Point_<int>,int,class cv::Scalar_<double> const &,int,int,int)" (?circle@cv@@YAXAEBV_InputOutputArray@1@V?$Point_@H@1@HAEBV?$Scalar_@N@1@HHH@Z)
+E:\University\7 - Thesis\Thesis Draft 2\SourceCode\PieceRecog\x64\Release\PieceRecog.exe : fatal error LNK1120: 11 unresolved externals
